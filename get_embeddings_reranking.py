@@ -50,10 +50,10 @@ flags.DEFINE_string(name='prefix',
                     default=None)       
 
 flags.DEFINE_boolean(name='debug',
-                     help='If True then inference will be stopped at 10000 steps',
+                     help='If True, inference will be stopped at 10000 steps',
                      default=True)
 flags.DEFINE_boolean(name='is_training',
-                     help='If True then embeddings for the training data will be computed',
+                     help='If True, embeddings for the training data will be computed',
                      default=False)
 
 

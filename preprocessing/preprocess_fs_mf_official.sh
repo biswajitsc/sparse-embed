@@ -5,13 +5,13 @@
 # the data directory.
 # Assumes that the images are organized into folders according
 # to their labels inside the data directory.
-# synsets.txt should contain a list of the labels. For example
+# labels.txt should contain a list of the labels. For example
 #   n03114236
 #   n03114807
 #   ...
 #
 # usage:
-#  ./preprocess_image_data.sh [data-dir]
+#  ./preprocess_fs_mf_official.sh data-dir
 
 set -e
 
